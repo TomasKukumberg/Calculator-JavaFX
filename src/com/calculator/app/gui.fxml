@@ -22,31 +22,35 @@
         <Text fx:id="output" font="$FONT"/>
     </StackPane>
 
-    <HBox spacing="10" alignment="CENTER">
-        <Button text="7" prefWidth="50" font="$FONT" onAction="#processNumpad" />
-        <Button text="8" prefWidth="50" font="$FONT" onAction="#processNumpad" />
-        <Button text="9" prefWidth="50" font="$FONT" onAction="#processNumpad" />
-        <Button text="/" prefWidth="50" font="$FONT" onAction="#processOperator" />
+    <HBox id="box" spacing="10" alignment="CENTER">
+        <Button id="number-button" text="7" prefWidth="50" font="$FONT" onAction="#processNumpad" />
+        <Button id="number-button" text="8" prefWidth="50" font="$FONT" onAction="#processNumpad" />
+        <Button id="number-button" text="9" prefWidth="50" font="$FONT" onAction="#processNumpad" />
+        <Button id="operator-button" text="/" prefWidth="50" font="$FONT" onAction="#processOperator" />
     </HBox>
 
     <HBox spacing="10" alignment="CENTER">
-        <Button text="4" prefWidth="50" font="$FONT" onAction="#processNumpad" />
-        <Button text="5" prefWidth="50" font="$FONT" onAction="#processNumpad" />
-        <Button text="6" prefWidth="50" font="$FONT" onAction="#processNumpad" />
-        <Button text="*" prefWidth="50" font="$FONT" onAction="#processOperator" />
+        <Button id="number-button" text="4" prefWidth="50" font="$FONT" onAction="#processNumpad" />
+        <Button id="number-button" text="5" prefWidth="50" font="$FONT" onAction="#processNumpad" />
+        <Button id="number-button" text="6" prefWidth="50" font="$FONT" onAction="#processNumpad" />
+        <Button id="operator-button" text="*" prefWidth="50" font="$FONT" onAction="#processOperator" />
     </HBox>
 
     <HBox spacing="10" alignment="CENTER">
-        <Button text="1" prefWidth="50" font="$FONT" onAction="#processNumpad" />
-        <Button text="2" prefWidth="50" font="$FONT" onAction="#processNumpad" />
-        <Button text="3" prefWidth="50" font="$FONT" onAction="#processNumpad" />
-        <Button text="-" prefWidth="50" font="$FONT" onAction="#processOperator" />
+        <Button id="number-button" text="1" prefWidth="50" font="$FONT" onAction="#processNumpad" />
+        <Button id="number-button" text="2" prefWidth="50" font="$FONT" onAction="#processNumpad" />
+        <Button id="number-button" text="3" prefWidth="50" font="$FONT" onAction="#processNumpad" />
+        <Button id="operator-button" text="-" prefWidth="50" font="$FONT" onAction="#processOperator" />
     </HBox>
 
     <HBox spacing="10" alignment="CENTER">
-        <Button text="0" prefWidth="110" font="$FONT" onAction="#processNumpad" />
-        <Button text="=" prefWidth="50" font="$FONT" onAction="#processOperator" />
-        <Button text="+" prefWidth="50" font="$FONT" onAction="#processOperator" />
+        <Button id="number-button" text="0" prefWidth="110" font="$FONT" onAction="#processNumpad" />
+        <Button id="equals-button" text="=" prefWidth="50" font="$FONT" onAction="#processOperator" />
+        <Button id="operator-button" text="+" prefWidth="50" font="$FONT" onAction="#processOperator" />
     </HBox>
+
+    <stylesheets>
+        <URL value="@gui.css" />
+    </stylesheets>
 
 </VBox>

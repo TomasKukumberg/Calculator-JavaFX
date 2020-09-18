@@ -1,0 +1,14 @@
+#number-button{
+    -fx-background-color: rgb(1, 9, 89);
+    -fx-text-fill: rgb(255,255,255);
+}
+
+#operator-button{
+    -fx-background-color: rgb(5, 181, 230);
+    -fx-text-fill: rgb(255,255,255);
+}
+
+#equals-button{
+    -fx-background-color: rgb(206, 217, 93);
+    -fx-text-fill: rgb(255,255,255);
+}
