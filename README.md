@@ -1,7 +1,5 @@
-# Calculator written with Java and JavaFX for gui
-MVC model
-
-Java, JavaFX, fxml and css, written in IntelliJ IDE.
+# Calculator
+written with Java and JavaFX, fxml and css
 
 Inspired by a tutorial found [here](https://youtu.be/y1ZaBalVZic)
 
