@@ -1,5 +1,5 @@
 # Calculator
-Written with Java and JavaFX, FXML and CSS.
+Written with Java, JavaFX, FXML and CSS.
 
 Inspired by this [tutorial](https://youtu.be/y1ZaBalVZic).
 
